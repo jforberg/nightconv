@@ -1,0 +1,15 @@
+NIGHTCONV
+Automatically turns your favourite songs into bad nightcore remixes.
+
+BUILD
+        make
+
+INSTALL
+        sudo cp nightconv /usr/local/bin
+
+USAGE
+        nightconv songfile
+        nightconv songfile remix.mp3
+
+Many different input formats are supported. Output is only mp3.
+
