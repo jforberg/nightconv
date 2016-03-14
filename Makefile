@@ -4,5 +4,8 @@ LDLIBS = $(shell pkg-config --libs gstreamer-1.0)
 
 all: nightconv
 
+install:
+	install -m755 nightconv /usr/local/bin/
+
 clean:
 	rm -f nightconv
